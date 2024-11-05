@@ -1,43 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([
-  {
-    "id": "76250dc2-ac77-4602-9fa6-41297ebd44f1",
-    "feature": "LogIn Page Feature",
-    "scenario": "Verify Login Page Title",
-    "start": 1729350043646,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1729350043762,
-    "className": "undefined"
-  },
-  {
-    "id": "fac53c34-7d1a-40b6-a101-12ae0f090630",
-    "feature": "LogIn Page Feature",
-    "scenario": "Forgot Password Link",
-    "start": 1729350043775,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1729350043777,
-    "className": "undefined"
-  },
-  {
-    "id": "846e7a0d-8f14-4998-b386-45e5e5d41989",
-    "feature": "LogIn Page Feature",
-    "scenario": "LogIn with valid credentials",
-    "start": 1729350043788,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1729350043793,
-    "className": "undefined"
-  }
-]);
-CucumberHTML.timelineGroups.pushArray([
-  {
-    "id": 1,
-    "content": "Thread[#1,main,5,main]"
-  }
-]);
+CucumberHTML.timelineItems.pushArray([{"id":"1e91792c-4b07-49b0-9876-f1608f3a8a27","feature":"Admin Page Feature","scenario":"Verify Login Page URL","start":1730801052185,"group":1,"content":"","tags":"","end":1730801060847,"className":"passed"},{"id":"3bd64d48-15f6-44a1-a00c-4526c8c8b90a","feature":"LogIn Page Feature","scenario":"LogIn with valid credentials","start":1730801085317,"group":1,"content":"","tags":"","end":1730801090622,"className":"passed"},{"id":"2151de8a-1d7f-4f7a-b1f3-6ac221ae2054","feature":"Admin Page Feature","scenario":"Admin sections count","start":1730801060855,"group":1,"content":"","tags":"","end":1730801073674,"className":"passed"},{"id":"73a5c5e8-44d6-4846-aa24-4d21fa9038e4","feature":"LogIn Page Feature","scenario":"Forgot Password Link","start":1730801077994,"group":1,"content":"","tags":"","end":1730801085310,"className":"passed"},{"id":"dfbcaf94-6d41-4974-85fc-2f03e54aead9","feature":"LogIn Page Feature","scenario":"Verify Login Page Title","start":1730801073683,"group":1,"content":"","tags":"","end":1730801077985,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
 });
